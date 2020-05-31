@@ -1,7 +1,3 @@
-#[cfg(test)]
-mod tests {
-    #[test]
-    fn it_works() {
-        assert_eq!(2 + 2, 4);
-    }
+pub fn mock() {
+    println!("I haven't been yanked but cargo audit thinks I have been!")
 }
